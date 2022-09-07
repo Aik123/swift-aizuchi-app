@@ -14,7 +14,15 @@
 		0162C5DD28C83EBD0035701C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0162C5DC28C83EBD0035701C /* Assets.xcassets */; };
 		0162C5E028C83EBD0035701C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0162C5DE28C83EBD0035701C /* LaunchScreen.storyboard */; };
 		0162C5EC28C851000035701C /* hee.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0162C5EB28C851000035701C /* hee.m4a */; };
-		0162C5EE28C8518C0035701C /* unx2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0162C5ED28C8518C0035701C /* unx2.m4a */; };
+		0162C5F928C8619D0035701C /* wakaru.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0162C5F128C8619C0035701C /* wakaru.m4a */; };
+		0162C5FA28C8619D0035701C /* naruhodo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0162C5F228C8619C0035701C /* naruhodo.m4a */; };
+		0162C5FB28C8619D0035701C /* hontoni.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0162C5F328C8619D0035701C /* hontoni.m4a */; };
+		0162C5FC28C8619D0035701C /* sousou.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0162C5F428C8619D0035701C /* sousou.m4a */; };
+		0162C5FD28C8619D0035701C /* sugoi.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0162C5F528C8619D0035701C /* sugoi.m4a */; };
+		0162C5FE28C8619D0035701C /* sasuga.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0162C5F628C8619D0035701C /* sasuga.m4a */; };
+		0162C5FF28C8619D0035701C /* sorede.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0162C5F728C8619D0035701C /* sorede.m4a */; };
+		0162C60028C8619D0035701C /* doushite.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0162C5F828C8619D0035701C /* doushite.m4a */; };
+		0162C60628C86F470035701C /* unun.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0162C60528C86F470035701C /* unun.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +35,15 @@
 		0162C5DF28C83EBD0035701C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0162C5E128C83EBD0035701C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0162C5EB28C851000035701C /* hee.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = hee.m4a; sourceTree = "<group>"; };
-		0162C5ED28C8518C0035701C /* unx2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = unx2.m4a; sourceTree = "<group>"; };
+		0162C5F128C8619C0035701C /* wakaru.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = wakaru.m4a; sourceTree = "<group>"; };
+		0162C5F228C8619C0035701C /* naruhodo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = naruhodo.m4a; sourceTree = "<group>"; };
+		0162C5F328C8619D0035701C /* hontoni.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = hontoni.m4a; sourceTree = "<group>"; };
+		0162C5F428C8619D0035701C /* sousou.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sousou.m4a; sourceTree = "<group>"; };
+		0162C5F528C8619D0035701C /* sugoi.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sugoi.m4a; sourceTree = "<group>"; };
+		0162C5F628C8619D0035701C /* sasuga.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sasuga.m4a; sourceTree = "<group>"; };
+		0162C5F728C8619D0035701C /* sorede.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sorede.m4a; sourceTree = "<group>"; };
+		0162C5F828C8619D0035701C /* doushite.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = doushite.m4a; sourceTree = "<group>"; };
+		0162C60528C86F470035701C /* unun.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = unun.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +91,16 @@
 		0162C5E828C846EE0035701C /* sounds */ = {
 			isa = PBXGroup;
 			children = (
-				0162C5ED28C8518C0035701C /* unx2.m4a */,
+				0162C60528C86F470035701C /* unun.m4a */,
 				0162C5EB28C851000035701C /* hee.m4a */,
+				0162C5F828C8619D0035701C /* doushite.m4a */,
+				0162C5F328C8619D0035701C /* hontoni.m4a */,
+				0162C5F228C8619C0035701C /* naruhodo.m4a */,
+				0162C5F628C8619D0035701C /* sasuga.m4a */,
+				0162C5F728C8619D0035701C /* sorede.m4a */,
+				0162C5F428C8619D0035701C /* sousou.m4a */,
+				0162C5F528C8619D0035701C /* sugoi.m4a */,
+				0162C5F128C8619C0035701C /* wakaru.m4a */,
 			);
 			path = sounds;
 			sourceTree = "<group>";
@@ -141,8 +165,16 @@
 			files = (
 				0162C5E028C83EBD0035701C /* LaunchScreen.storyboard in Resources */,
 				0162C5EC28C851000035701C /* hee.m4a in Resources */,
+				0162C5FD28C8619D0035701C /* sugoi.m4a in Resources */,
+				0162C5FB28C8619D0035701C /* hontoni.m4a in Resources */,
+				0162C5FF28C8619D0035701C /* sorede.m4a in Resources */,
+				0162C60628C86F470035701C /* unun.m4a in Resources */,
 				0162C5DD28C83EBD0035701C /* Assets.xcassets in Resources */,
-				0162C5EE28C8518C0035701C /* unx2.m4a in Resources */,
+				0162C5F928C8619D0035701C /* wakaru.m4a in Resources */,
+				0162C60028C8619D0035701C /* doushite.m4a in Resources */,
+				0162C5FC28C8619D0035701C /* sousou.m4a in Resources */,
+				0162C5FE28C8619D0035701C /* sasuga.m4a in Resources */,
+				0162C5FA28C8619D0035701C /* naruhodo.m4a in Resources */,
 				0162C5DB28C83EBB0035701C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
