@@ -13,13 +13,17 @@ class ViewController: UIViewController {
     
     var player = AVAudioPlayer()
     var currentVolume: Float = 1.0
+    let myButton = UIButton()
 
     @IBOutlet weak var volumeSlider: UISlider!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+  
     }
+    
+
 
     @IBAction func volumeChanged(_ sender: UISlider) {
         currentVolume = volumeSlider.value
