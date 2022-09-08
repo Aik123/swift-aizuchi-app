@@ -23,6 +23,8 @@
 		0162C5FF28C8619D0035701C /* sorede.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0162C5F728C8619D0035701C /* sorede.m4a */; };
 		0162C60028C8619D0035701C /* doushite.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0162C5F828C8619D0035701C /* doushite.m4a */; };
 		0162C60628C86F470035701C /* unun.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0162C60528C86F470035701C /* unun.m4a */; };
+		01946A5428C9DCC200DEF4A5 /* image.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 01946A5328C9DCC200DEF4A5 /* image.JPG */; };
+		01946A5828C9E03200DEF4A5 /* flower.png in Resources */ = {isa = PBXBuildFile; fileRef = 01946A5728C9E03200DEF4A5 /* flower.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		0162C5F728C8619D0035701C /* sorede.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sorede.m4a; sourceTree = "<group>"; };
 		0162C5F828C8619D0035701C /* doushite.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = doushite.m4a; sourceTree = "<group>"; };
 		0162C60528C86F470035701C /* unun.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = unun.m4a; sourceTree = "<group>"; };
+		01946A5328C9DCC200DEF4A5 /* image.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.JPG; sourceTree = "<group>"; };
+		01946A5728C9E03200DEF4A5 /* flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 				0162C5E828C846EE0035701C /* sounds */,
 				0162C5D928C83EBB0035701C /* Main.storyboard */,
 				0162C5DC28C83EBD0035701C /* Assets.xcassets */,
+				01946A5328C9DCC200DEF4A5 /* image.JPG */,
+				01946A5728C9E03200DEF4A5 /* flower.png */,
 				0162C5DE28C83EBD0035701C /* LaunchScreen.storyboard */,
 				0162C5E128C83EBD0035701C /* Info.plist */,
 			);
@@ -163,8 +169,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01946A5428C9DCC200DEF4A5 /* image.JPG in Resources */,
 				0162C5E028C83EBD0035701C /* LaunchScreen.storyboard in Resources */,
 				0162C5EC28C851000035701C /* hee.m4a in Resources */,
+				01946A5828C9E03200DEF4A5 /* flower.png in Resources */,
 				0162C5FD28C8619D0035701C /* sugoi.m4a in Resources */,
 				0162C5FB28C8619D0035701C /* hontoni.m4a in Resources */,
 				0162C5FF28C8619D0035701C /* sorede.m4a in Resources */,

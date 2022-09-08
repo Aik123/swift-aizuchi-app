@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     
     var player = AVAudioPlayer()
     var currentVolume: Float = 1.0
-    let myButton = UIButton()
+//    let myButton = UIButton()
 //    let sounds = ["unun","hee","doushite","hontoni","naruhodo","sasuga","sorede","sousou","sugoi","wakaru"]
 //    enum SelectedButtonTag: Int {
 //        case unun
@@ -40,6 +40,7 @@ class ViewController: UIViewController {
                 view.addSubview(button)
         
         button.addTarget(self, action: #selector(self.buttonTapped(sender:)), for: .touchUpInside)
+        
     }
     
     // ボタンをタップした時のアニメーション
@@ -58,7 +59,8 @@ class ViewController: UIViewController {
                }, completion: nil)
            }
        }
-
+    
+    
     //　音量の調整スライド
     @IBAction func volumeChanged(_ sender: UISlider) {
         currentVolume = volumeSlider.value
@@ -69,6 +71,7 @@ class ViewController: UIViewController {
     @IBAction func heeButton(_ sender: UIButton) {
         let pathToSound = Bundle.main.path(forResource: "hee", ofType: "m4a")!
         let url = URL(fileURLWithPath: pathToSound)
+
 
         do{
             player = try AVAudioPlayer(contentsOf: url)
