@@ -16,148 +16,181 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cDt-Ci-xS8">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cDt-Ci-xS8">
                                 <rect key="frame" x="20" y="243" width="374" height="44"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="へ〜">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                    <backgroundConfiguration key="background" cornerRadius="30">
+                                        <color key="backgroundColor" red="0.89822353900829288" green="1" blue="0.36804400701971596" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="25"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="buttonTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uJJ-PA-frB"/>
                                     <action selector="heeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AGc-uF-EIB"/>
                                 </connections>
                             </button>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1.5" minValue="0.0" maxValue="6.5" translatesAutoresizingMaskIntoConstraints="NO" id="aTU-63-AQG">
-                                <rect key="frame" x="28" y="153" width="358" height="31"/>
-                                <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <connections>
-                                    <action selector="volumeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="mmN-UU-Pf7"/>
-                                </connections>
-                            </slider>
-                            <button opaque="NO" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gI1-Dt-ZX9">
-                                <rect key="frame" x="20" y="584" width="374" height="44"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" ambiguous="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gI1-Dt-ZX9">
+                                <rect key="frame" x="20" y="586" width="374" height="44"/>
                                 <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="そうそう！">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                    <backgroundConfiguration key="background" cornerRadius="20">
+                                        <color key="backgroundColor" red="0.70127303471960711" green="0.8530452409685092" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="25"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="heeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xFl-xl-Xxn"/>
+                                    <action selector="buttonTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rAd-YN-MZQ"/>
                                     <action selector="sousouButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CnS-84-MKh"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Et5-uy-Pdb">
-                                <rect key="frame" x="20" y="486" width="374" height="44"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" ambiguous="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Et5-uy-Pdb">
+                                <rect key="frame" x="20" y="488" width="374" height="44"/>
                                 <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="さすが！">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                    <backgroundConfiguration key="background" cornerRadius="20">
+                                        <color key="backgroundColor" red="0.70127303471960711" green="0.8530452409685092" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="25"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="heeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="igb-Ju-T2E"/>
+                                    <action selector="buttonTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KJL-sN-7Rw"/>
                                     <action selector="sasugaButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gCH-Iw-Zpt"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="13i-TC-FYJ">
-                                <rect key="frame" x="20" y="682" width="374" height="44"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" ambiguous="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="13i-TC-FYJ">
+                                <rect key="frame" x="20" y="688" width="374" height="44"/>
                                 <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="わかる〜">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                    <backgroundConfiguration key="background" cornerRadius="20">
+                                        <color key="backgroundColor" red="0.70127303471960711" green="0.8530452409685092" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="25"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="heeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WlJ-3d-aqU"/>
+                                    <action selector="buttonTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SHL-sG-39T"/>
                                     <action selector="wakaruButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ohl-rE-3I0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uYh-S6-9dk">
-                                <rect key="frame" x="20" y="292" width="374" height="42"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" ambiguous="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uYh-S6-9dk">
+                                <rect key="frame" x="20" y="292" width="374" height="44"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="うんうん"/>
+                                <buttonConfiguration key="configuration" style="plain" title="うんうん">
+                                    <backgroundConfiguration key="background" cornerRadius="20">
+                                        <color key="backgroundColor" red="0.70127303471960711" green="0.8530452409685092" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="25"/>
+                                </buttonConfiguration>
                                 <connections>
-                                    <action selector="heeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QS1-fj-jgd"/>
+                                    <action selector="buttonTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AFO-iR-fRW"/>
                                     <action selector="ununButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A8G-rn-WFL"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sWl-XL-g47">
-                                <rect key="frame" x="20" y="437" width="374" height="44"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" ambiguous="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sWl-XL-g47">
+                                <rect key="frame" x="20" y="439" width="374" height="44"/>
                                 <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="なるほど〜">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                    <backgroundConfiguration key="background" cornerRadius="20">
+                                        <color key="backgroundColor" red="0.89822353900829288" green="1" blue="0.36804400701971596" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="25"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="heeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RfI-TT-mJ8"/>
+                                    <action selector="buttonTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pvp-56-eNu"/>
                                     <action selector="naruhodoButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1O8-2Z-QhA"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TQt-uc-CVT">
-                                <rect key="frame" x="20" y="535" width="374" height="44"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" ambiguous="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TQt-uc-CVT">
+                                <rect key="frame" x="20" y="537" width="374" height="44"/>
                                 <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="それでそれで！？">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                    <backgroundConfiguration key="background" cornerRadius="20">
+                                        <color key="backgroundColor" red="0.89822353900829288" green="1" blue="0.36804400701971596" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="25"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="heeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WJE-8U-ahM"/>
+                                    <action selector="buttonTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fs2-Pr-RCj"/>
                                     <action selector="soredeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4qw-aF-pBz"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XV3-LK-k6I">
-                                <rect key="frame" x="20" y="388" width="374" height="44"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor"/>
-                                <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="ほんとに！？">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="heeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tS4-dh-8Wu"/>
-                                    <action selector="hontoniButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uDD-VB-h1I"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWg-zM-fPS">
-                                <rect key="frame" x="20" y="339" width="374" height="44"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor"/>
-                                <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="どうして！？">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="doshiteButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eLL-mk-egl"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ya-yq-xm1">
-                                <rect key="frame" x="20" y="630" width="374" height="44"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" ambiguous="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ya-yq-xm1">
+                                <rect key="frame" x="20" y="636" width="374" height="44"/>
                                 <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="すごい〜">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                    <backgroundConfiguration key="background" cornerRadius="20">
+                                        <color key="backgroundColor" red="0.89822353900829288" green="1" blue="0.36804400701971596" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="25"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="heeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Psh-KK-MwD"/>
+                                    <action selector="buttonTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8l9-p1-Yl5"/>
                                     <action selector="sugoiButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Yt-3u-fP9"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" ambiguous="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XV3-LK-k6I">
+                                <rect key="frame" x="20" y="390" width="374" height="44"/>
+                                <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="ほんとに！？">
+                                    <backgroundConfiguration key="background" cornerRadius="20">
+                                        <color key="backgroundColor" red="0.70127303471960711" green="0.8530452409685092" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="25"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gt6-wO-AQ6"/>
+                                    <action selector="hontoniButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uDD-VB-h1I"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" ambiguous="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWg-zM-fPS">
+                                <rect key="frame" x="20" y="341" width="374" height="44"/>
+                                <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="どうして！？">
+                                    <backgroundConfiguration key="background" cornerRadius="20">
+                                        <color key="backgroundColor" red="0.89822353900829288" green="1" blue="0.36804400701971596" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="25"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bzQ-An-onZ"/>
+                                    <action selector="doshiteButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eLL-mk-egl"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VOLUME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eXh-1x-Lvr">
+                                <rect key="frame" x="167" y="119" width="80" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="aTU-63-AQG">
+                                <rect key="frame" x="28" y="151" width="358" height="31"/>
+                                <color key="tintColor" red="0.54860787485238327" green="0.47621664813325332" blue="0.88796164772727271" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="volumeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="mmN-UU-Pf7"/>
+                                </connections>
+                            </slider>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sWl-XL-g47" secondAttribute="trailing" constant="20" id="0hg-Ph-nc7"/>
                             <constraint firstItem="XV3-LK-k6I" firstAttribute="top" secondItem="eWg-zM-fPS" secondAttribute="bottom" constant="5" id="1eb-tS-iKN"/>
+                            <constraint firstItem="eXh-1x-Lvr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2Gx-hc-jrr"/>
                             <constraint firstItem="cDt-Ci-xS8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="3T0-La-YwK"/>
                             <constraint firstItem="sWl-XL-g47" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="4pZ-Rj-dYq"/>
+                            <constraint firstItem="aTU-63-AQG" firstAttribute="top" secondItem="eXh-1x-Lvr" secondAttribute="bottom" constant="10" id="7OQ-gF-DqH"/>
                             <constraint firstItem="Et5-uy-Pdb" firstAttribute="top" secondItem="sWl-XL-g47" secondAttribute="bottom" constant="5" id="7UV-Ka-pNU"/>
                             <constraint firstItem="eWg-zM-fPS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="9Hu-cD-Wkj"/>
                             <constraint firstItem="7Ya-yq-xm1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="9JF-47-h1x"/>
@@ -170,7 +203,7 @@
                             <constraint firstItem="gI1-Dt-ZX9" firstAttribute="top" secondItem="TQt-uc-CVT" secondAttribute="bottom" constant="5" id="V59-te-kop"/>
                             <constraint firstItem="XV3-LK-k6I" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="WJk-AU-GBE"/>
                             <constraint firstItem="Et5-uy-Pdb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="YME-MN-3A6"/>
-                            <constraint firstItem="cDt-Ci-xS8" firstAttribute="top" secondItem="aTU-63-AQG" secondAttribute="bottom" constant="60" id="ZgV-3c-hTh"/>
+                            <constraint firstItem="cDt-Ci-xS8" firstAttribute="top" relation="lessThanOrEqual" secondItem="aTU-63-AQG" secondAttribute="bottom" constant="30" id="ZgV-3c-hTh"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TQt-uc-CVT" secondAttribute="trailing" constant="20" id="c62-yH-BCW"/>
                             <constraint firstItem="aTU-63-AQG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="d4u-Nd-wZw"/>
                             <constraint firstItem="sWl-XL-g47" firstAttribute="top" secondItem="XV3-LK-k6I" secondAttribute="bottom" constant="5" id="e4O-4V-Pz6"/>
@@ -190,23 +223,18 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="volumeLevel" destination="eXh-1x-Lvr" id="3tt-fs-e3r"/>
                         <outlet property="volumeSlider" destination="aTU-63-AQG" id="5U7-dA-amj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-438" y="-164"/>
+            <point key="canvasLocation" x="201" y="-218"/>
         </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemYellowColor">
-            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
