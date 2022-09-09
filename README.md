@@ -1,5 +1,24 @@
 # swift-aizuchi-app
 
-![スクリーンショット 2022-09-09 10 50 06](https://user-images.githubusercontent.com/97071741/189255360-a3e16b93-783d-47cf-aa5f-eb8ab0c2c6df.png)
+このリポジトリはCode Chrysalisの生徒であるときに作成しました。
 
-![スクリーンショット 2022-09-09 10 50 14](https://user-images.githubusercontent.com/97071741/189255385-7bf84869-cb21-4c19-91b1-e4f469f455af.png)
+## アプリの概要
+
+喉が痛い、喉を労りたい、もしくは自分と会話したい。そんな時に、このアプリはあなたの代わりにあいづちをしてくれます。
+
+
+![スクリーンショット 2022-09-09 10 54 22](https://user-images.githubusercontent.com/97071741/189256372-ca91a23a-387d-4675-926e-4113dfbb0488.png)
+
+
+## 使用技術
+言語： Swift
+
+IDE: Xcode
+
+Interface： Storyboard
+
+Framework： UIKit & AVKit
+
+
+
+
